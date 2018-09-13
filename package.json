@@ -5,30 +5,33 @@
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "watch:test": "mocha --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kentcdodds/starwars-names.git"
+    "url": "git+https://github.com/khaled-hossain-code/starWars-names-library"
   },
   "keywords": [
     "random",
     "star wars"
   ],
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "author": "Md.khaled Hossain <md.khaled.eee@gmail.com> (http://github.com/khaled-hossain-code)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kentcdodds/starwars-names/issues"
+    "url": "https://github.com/khaled-hossain-code/starWars-names-library/issues"
   },
-  "homepage": "https://github.com/kentcdodds/starwars-names#readme",
+  "homepage": "https://github.com/khaled-hossain-code/starWars-names-library#readme",
   "dependencies": {
     "unique-random-array": "1.0.1"
   },
   "devDependencies": {
+    "chai": "4.1.2",
     "eslint": "5.5.0",
     "eslint-config-airbnb": "17.1.0",
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-jsx-a11y": "6.1.1",
-    "eslint-plugin-react": "7.11.1"
+    "eslint-plugin-react": "7.11.1",
+    "mocha": "5.2.0"
   }
 }
