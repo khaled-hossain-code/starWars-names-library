@@ -73,5 +73,6 @@ typings/
 # Serverless directories
 .serverless
 
-# dist zip
+# dist & dist zip
+dist
 *.tgz

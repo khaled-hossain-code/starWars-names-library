@@ -3,7 +3,10 @@ const starwarsNames = require('./starwars-names.json');
 
 const random = uniqueRandomArray(starwarsNames);
 
-module.exports = {
+const mainExport = {
   all: starwarsNames,
   random,
 };
+
+// export default mainExport;
+module.exports = mainExport; // for CommonJS compatibility
