@@ -1,6 +1,7 @@
 # Ignore test files
 *.test.js
 
-# Ignore coverage folder
+# Ignore coverage folder, dist folder
 coverage
+dist
 
