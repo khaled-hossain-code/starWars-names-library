@@ -1,0 +1,14 @@
+{
+  "check-coverage": true,
+  "branches": 100,
+  "functions": 100,
+  "lines": 80,
+  "statemets" : 80,
+  "reporter": [
+    "text",
+    "lcov"
+  ],
+  "include": [
+    "src"
+  ]
+}
