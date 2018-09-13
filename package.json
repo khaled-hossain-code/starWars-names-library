@@ -2,7 +2,7 @@
   "name": "starwars-names",
   "version": "1.0.0",
   "description": "Get random Star Wars names",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "babel src --copy-files --out-dir dist --ignore *.test.js",
@@ -16,9 +16,6 @@
       "pre-commit": "npm run validate"
     }
   },
-  "files": [
-    "dist"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/khaled-hossain-code/starWars-names-library"
@@ -26,6 +23,9 @@
   "keywords": [
     "random",
     "star wars"
+  ],
+  "files": [
+    "dist"
   ],
   "author": "Md.khaled Hossain <md.khaled.eee@gmail.com> (http://github.com/khaled-hossain-code)",
   "license": "MIT",
